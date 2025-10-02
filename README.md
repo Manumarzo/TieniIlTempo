@@ -1,6 +1,6 @@
 # Tieni il Tempo - Applicazione Mobile
 
-Questo progetto è stato sviluppato come parte del corso di Applicazioni Mobili.
+Questo progetto è stato sviluppato da **Emanuele Marzone** come parte del corso di Applicazioni Mobili.
 
 ## 🎯 Obiettivo del Progetto
 
