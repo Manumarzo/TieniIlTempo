@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permessi -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <queries>
+        <!-- Dichiara l'intenzione di interagire con app di mappe -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="geo" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TieniIlTempo"
+        tools:targetApi="31"
+        tools:ignore="ExtraText">
+
+        <activity
+            android:name=".auth.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".auth.RegisterActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".caregiver.CaregiverMainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".user.UserMainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".task.TaskListActivity" />
+        <activity android:name=".profile.ProfileActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".chat.ChatActivity" />
+        <activity android:name=".caregiver.CaregiverStatisticsActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".task.subtask.SubtaskListActivity"/>
+        <activity android:name=".user.UserStatisticsActivity"/>
+        <activity
+            android:name=".chat.MessageActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colori generali per il tema chiaro -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#3F51B5</color> <!-- Blu elegante -->
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#FF4081</color>
+    <color name="background_color">#FAFAFA</color> <!-- Chiaro -->
+    <color name="onBackground">#212121</color>
+    <color name="error">#D32F2F</color>
+    <color name="yellow">#FFD700</color>
+    <color name="gray_light">#D3D3D3</color>
+    <color name="red">#EA4335</color>
+
+    <!-- Colori per il tema scuro -->
+    <color name="background_color_dark">#121212</color> <!-- Scuro -->
+    <color name="onBackground_dark">#E0E0E0</color> <!-- Testo chiaro sullo sfondo scuro -->
+</resources>

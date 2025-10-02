@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Light Theme -->
+    <style name="Base.Theme.TieniIlTempo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colori principali per il tema chiaro -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorError">@color/error</item>
+
+        <!-- Superficie e fondo principale per il tema chiaro -->
+        <item name="colorSurface">@color/background_color</item>
+        <item name="colorOnSurface">@color/onBackground</item>
+
+        <!-- Altre personalizzazioni -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:windowBackground">@color/background_color</item>
+    </style>
+
+    <!-- Tema pubblico -->
+    <style name="Theme.TieniIlTempo" parent="Base.Theme.TieniIlTempo" />
+</resources>

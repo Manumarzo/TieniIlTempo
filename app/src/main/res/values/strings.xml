@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Tieni il tempo</string>
+
+    <!-- Titoli e Label -->
+    <string name="register">Registrati</string>
+    <string name="login">Accedi</string>
+    <string name="name">Nome</string>
+    <string name="surname">Cognome</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="user_type">Caregiver:</string>
+
+    <!-- Switch -->
+    <string name="caregiver">Caregiver</string>
+    <string name="user">Utente</string>
+
+    <!-- Descrizioni -->
+    <string name="app_logo_desc">Logo dell\'app Tieni il tempo</string>
+
+    <!-- Errori / Toast / stringhe xml -->
+    <string name="error_empty_fields">Per favore, compila tutti i campi</string>
+    <string name="error_registration_failed">Registrazione fallita. Riprova.</string>
+    <string name="registration_success">Registrazione completata con successo!</string>
+    <string name="accedi">Accedi</string>
+    <string name="password_dimenticata">Password dimenticata?</string>
+    <string name="tieni_il_tempo">Tieni il Tempo</string>
+    <string name="cnfPassword">Conferma Password</string>
+    <string name="ciao_caregiver">Ciao, Caregiver!</string>
+    <string name="utenti_associati">Utenti associati</string>
+    <string name="ciao_utente">Ciao, Utente!</string>
+    <string name="logout">Logout</string>
+    <string name="registrati">Registrati</string>
+    <string name="aggiungi_utente">Aggiungi Utente</string>
+    <string name="nome_utente">Nome Utente</string>
+    <string name="disassocia_utente">Disassocia utente</string>
+    <string name="nessun_utente_associato">Nessun utente associato</string>
+    <string name="aggiungi_attività">Aggiungi attività</string>
+    <string name="nessuna_attività">Nessuna attività trovata.</string>
+    <string name="attività_utente">Attività di Utente</string>
+    <string name="elimina">Elimina</string>
+    <string name="modifica">Modifica</string>
+    <string name="posizione">Posizione</string>
+    <string name="carica_immagine">carica Immagine</string>
+    <string name="parallelo">Parallelo</string>
+    <string name="elimina_sotto_attività">Elimina sotto-attività</string>
+    <string name="descrizione_sotto_attività">* Descrizione sotto-attività</string>
+    <string name="titolo_attività">Titolo attività</string>
+    <string name="descrizione">descrizione</string>
+    <string name="hint_titolo_attività">* Titolo Attività</string>
+    <string name="aggiungi_sotto_attività">Aggiungi sotto-attività</string>
+    <string name="statistiche">Statistiche</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="profilo">Profilo</string>
+    <string name="stato">Stato</string>
+    <string name="nessuna_chat">Nessuna chat disponibile</string>
+    <string name="id_utente">ID_Utente</string>
+    <string name="copia_id">Copia ID</string>
+    <string name="task_totali_create">Task totali create</string>
+    <string name="task_completate_dagli_utenti">Task completate dagli Utenti</string>
+    <string name="task_in_corso">Task in corso degli Utenti</string>
+    <string name="task_da_iniziare">Task da iniziare degli Utenti</string>
+    <string name="percentuale_completate_in_tempo">Percentuale completate in tempo dagli Utenti</string>
+    <string name="statistiche_di_caregiver">Statistiche di: Caregiver</string>
+    <string name="vota">Vota la task</string>
+    <string name="task_completate">Task completate:</string>
+    <string name="task_in_corso_user">Task in corso:</string>
+    <string name="task_da_iniziare_user">Task da iniziare:</string>
+    <string name="percentuale_task_completate_in_tempo_user">Percentuale task completate in tempo:</string>
+    <string name="task_totali_user">Task totali:</string>
+    <string name="avg_task_time">"Tempo medio completamento: "</string>
+    <string name="prize_obtained">Premi correnti ottenuti:</string>
+    <string name="prize_caption">Ottieni un premio per ogni task valutata 5 stelle.\nRiscattali presso il tuo Caregiver!</string>
+    <string name="riscatta_premio">Riscatta Premio</string>
+    <string name="prize_to_redeem">Premi da riscattare:</string>
+    <string name="username">Nome Utente</string>
+    <string name="messaggioHint">Scrivi un messaggio...</string>
+    <string name="allegati">Allegati</string>
+    <string name="invia">Invia</string>
+    <string name="noSubTask">Nessuna sottotask trovata</string>
+    <string name="sendPos">Invia posizione</string>
+    <string name="noteAndImage">Aggiungi commento/immagine</string>
+    <string name="endTask">Termina Attività</string>
+    <string name="immagine">Immagine</string>
+    <string name="addComment">*Inserisci il tuo commento</string>
+    <string name="addImage">Allega Immagine (Opzionale)</string>
+    <string name="noImageSelected">Nessuna immagine selezionata</string>
+    <string name="hint_durata_stimata">Durata stimata (min)</string>
+    <string name="goChat">Vai alla chat</string>
+    <string name="viewOnMap">Visualizza su Mappa</string>
+    <string name="start">Inizia</string>
+    <string name="end">Fine</string>
+</resources>
